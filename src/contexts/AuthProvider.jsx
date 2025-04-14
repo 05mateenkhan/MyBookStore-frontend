@@ -19,6 +19,7 @@ export default function AuthProvider({children}) {
         return createUserWithEmailAndPassword(auth, email, password)
     }
     const loginWithGoogle = () => {
+        
         setLoading(true);
         return signInWithPopup(auth, googleProvider);
     }
