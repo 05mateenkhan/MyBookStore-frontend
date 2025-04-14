@@ -23,7 +23,7 @@ export default function SideBar() {
    </svg>
 </button>
 
-<aside id="separator-sidebar" className={`${isMenuOpen ? "" : "hidden"} fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0`} aria-label="Sidebar">
+<aside id="separator-sidebar" className={`${isMenuOpen ? "" : "hidden"} fixed top-0 left-0 z-40 w-64 h-screen`} aria-label="Sidebar">
    
    <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800 "> 
    <button onClick={toggleMenu} className="flex items-center p-2 text-gray-900 transition duration-75 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group">
