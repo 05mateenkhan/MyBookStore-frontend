@@ -25,7 +25,7 @@ export default function UploadBook() {
         }
         console.log(bookObj);
         fetch("https://mybookstore-backend-x6z7.onrender.com/upload-book", {
-            mode: 'no-cors', method: "POST",
+              method: "POST",
             headers: {
                 "Content-type": "application/json"
             },

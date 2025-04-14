@@ -4,7 +4,7 @@ export default function Shop() {
     const [books, setBooks] = useState([]);
     useEffect(() => {
         fetch('https://mybookstore-backend-x6z7.onrender.com/all-books', {
-            // mode: 'no-cors',
+            //  
             // method: "GET"
         })
             .then(data => data.json())

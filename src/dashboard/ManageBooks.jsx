@@ -11,7 +11,7 @@ export default function DashboardLayout() {
             },[])
     const handleDelete = (id) => {
         fetch(`https://mybookstore-backend-x6z7.onrender.com/book/${id}`, {
-            mode: 'no-cors', method: "Delete" 
+              method: "Delete" 
         })
             .then(res => res.json())
                 .then(data => {

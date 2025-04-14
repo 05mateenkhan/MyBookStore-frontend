@@ -48,7 +48,7 @@ export default function EditBooks() {
         }
         // console.log(bookObj);
         fetch(`https://mybookstore-backend-x6z7.onrender.com/book/${id}`, {
-            mode: 'no-cors', method: "PATCH",
+              method: "PATCH",
             headers: {
                 "Content-type": "application/json"
             },
